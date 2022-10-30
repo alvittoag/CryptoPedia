@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-primary text-primary;
+}
+
+.rounded-div {
+  @apply border border-secondary rounded shadow-xl bg-primary px-3 md:px-9  w-full mx-auto;
+}
+
+.rounded-trending {
+  @apply border border-secondary rounded-lg shadow-xl bg-primary px-9  w-full mx-auto;
+}
+
+.dark {
+  --color-bg-primary: #2d3748;
+  --color-bg-primary: #2d3748;
+  --color-bg-secondary: #283141;
+  --color-text-primary: #dbdbdb;
+  --color-text-secondary: #e2e8f0;
+  --color-text-accent: #81e6d9;
+  --color-bg-input: #4a5361;
+  --color-bg-button: #81e6d9;
+  --color-bg-pagination: #2d3748;
+  --color-bg-activepagination: #626362;
+  --color-bg-hoverpagination: #81e6d9;
+  --color-text-textpagination: #2d3748;
+}
+
+.light {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #edf2f7;
+  --color-text-primary: #2d3748;
+  --color-text-secondary: #4a5568;
+  --color-text-accent: #2b6cb0;
+  --color-bg-input: #edf2f7;
+  --color-bg-button: #2b6cb0;
+  --color-bg-pagination: #ffffff;
+  --color-bg-activepagination: #eeeeee;
+  --color-bg-hoverpagination: #2b6cb0;
+  --color-text-textpagination: #ffffff;
+}
