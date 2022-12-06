@@ -1,3 +1,3 @@
-# CryptoPedia Project (On Development!!!)
+# FrontEnd - CryptoPedia 
 
-Made from React (CRA), React Query, Tailwind CSS, Daisy Ui, The API From Public
+`Technologi : JavaScript, React (CRA), Tailwind`
